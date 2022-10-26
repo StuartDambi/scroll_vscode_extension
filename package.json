@@ -1,0 +1,25 @@
+{
+  "name": "scroll",
+  "displayName": "scroll",
+  "description": "Scroll Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "scroll",
+      "aliases": ["scroll", "scroll"],
+      "extensions": [".scroll"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "scroll",
+      "scopeName": "",
+      "path": "./syntaxes/scroll.tmLanguage.json"
+    }]
+  }
+}
